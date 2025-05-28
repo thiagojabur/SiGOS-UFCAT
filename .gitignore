@@ -94,3 +94,6 @@ GitHub.sublime-settings
 bin/*
 !bin/.keep
 !bin/dev
+
+# node
+node_modules/

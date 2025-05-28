@@ -2,7 +2,6 @@ import os
 from pathlib import Path
 
 import dj_database_url
-import django_heroku
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -185,8 +184,3 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
     ]
 }
-
-
-# Heroku
-
-django_heroku.settings(locals())

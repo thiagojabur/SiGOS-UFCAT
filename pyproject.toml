@@ -29,7 +29,7 @@ dependencies = [
     "django-extensions>=3.2.3",
     "pyparsing>=3.2.1",
     "pydot>=3.0.4",
-    "pygraphviz>=1.14",
     "pytest>=8.3.5",
     "pytest-django>=4.10.0",
+    "honcho>=2.0.0",
 ]
