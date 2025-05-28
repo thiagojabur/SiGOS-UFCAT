@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+/* @layer components {
   .btn {
     @apply px-4 py-2 text-center rounded-full;
   }
@@ -12,7 +12,7 @@
   .toast {
     @apply fixed z-50 p-4 mb-6 text-xs border rounded-lg shadow-lg bottom-5 right-5 w-72;
   }
-}
+} */
 
 .badge {
   padding: 0.5rem 1rem;
