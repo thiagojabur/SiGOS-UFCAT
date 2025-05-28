@@ -1,9 +1,5 @@
 #!/bin/bash
 
-if [ ! -f "./bin/tailwindcss" ]; then
-  uv run script/download_tailwindcss_cli.py
-fi
-
 export PYTHONUNBUFFERED=1
 
-exec foreman start -f Procfile.dev
+uv run honcho start -f Procfile.dev

@@ -1,18 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* @layer components {
-  .btn {
-    @apply px-4 py-2 text-center rounded-full;
-  }
-  .input {
-    @apply border border-[#8888] rounded p-2 focus:border-2 focus:border-primary focus:outline-none placeholder:font-medium;
-  }
-  .toast {
-    @apply fixed z-50 p-4 mb-6 text-xs border rounded-lg shadow-lg bottom-5 right-5 w-72;
-  }
-} */
+@theme {
+  --color-primary: #297a7d;
+  --color-secondary: #f67600;
+  --font-rawline: "Rawline", "sans-serif";
+}
+
+@utility btn {
+  @apply px-4 py-2 text-center rounded-full;
+}
+
+@utility input {
+  @apply border border-[#8888] rounded p-2 focus:border-2 focus:border-primary focus:outline-none placeholder:font-medium;
+}
+
+@utility toast {
+  @apply fixed z-50 p-4 mb-6 text-xs border rounded-lg shadow-lg bottom-5 right-5 w-72;
+}
 
 .badge {
   padding: 0.5rem 1rem;
